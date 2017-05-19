@@ -598,6 +598,10 @@ nav ul, [role=navigation] ul {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center; }
+  @media only screen and (min-width: 800px) {
+    .about {
+      background-image: url("../images/photo.png");
+      background-attachment: fixed; } }
   @media only screen and (min-width: 60em) {
     .about {
       min-height: 650px;
@@ -669,7 +673,7 @@ nav ul, [role=navigation] ul {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 74.82117%; }
+        width: 48.82117%; }
         .about .description:last-child {
           margin-right: 0; } }
 
